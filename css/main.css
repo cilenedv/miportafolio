@@ -24,6 +24,7 @@ color:white;
 height: 100%;
 padding-top: 111px;
 font-family: 'Open Sans', sans-serif;
+font-weight:bold;
 }
 .enlace1{
 	color: #fffcf0 !important;
@@ -115,9 +116,25 @@ font-family: 'Open Sans', sans-serif;
 	font-family: 'Taviraj', cursive;
 }
 footer{
-	height: 60px;
-	background-color:#2c3f52
+	background-color:#87314e;
 }
+.phone , .email{
+	font-size:45px;
+	color:white;
+}
+.contactame{
+	font-size:25px;
+	color:white;
+	padding-top:10px;
+	font-family: 'Taviraj', cursive;
+	padding-bottom: 5px;
+	border-bottom: 4px solid white;
+
+}
+.contactame2{
+	font-size:20px;
+}
+
 /*media query*/
 @media only screen and (max-width: 750px) {
 	.fondo1{
