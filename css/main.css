@@ -34,7 +34,7 @@ font-weight:bold;
 .enlace{
 	color: #fffcf0 !important;
 	font-weight:bold !important;
-	font-family: 'Taviraj', cursive;
+	font-family: 'Open Sans', sans-serif;
 }
 .fondo2{
 	padding: 50px 0px;
@@ -45,7 +45,7 @@ font-weight:bold;
 }
 .sobremi{
 	color:#52616a;
-	font-size: 25px;
+	font-size:18px;
 	font-family: 'Open Sans', sans-serif;
 }
 .sobremi span{
@@ -74,7 +74,7 @@ font-weight:bold;
 	font-size:35px;
 	padding-bottom:30px;
 	color: #512645;
-	font-family: 'Taviraj', cursive;
+	font-family: 'Open Sans', sans-serif;
 }
 .photo{
 	width:100%;
@@ -112,10 +112,11 @@ font-weight:bold;
 .habilidades{
 	color:white;
 	font-size:35px;
-	font-family: 'Taviraj', cursive;
+	font-family: 'Open Sans', sans-serif;
 }
 footer{
 	background-color:#87314e;
+	box-sizing:content-box;
 }
 .phone , .email{
 	font-size:45px;
@@ -125,13 +126,15 @@ footer{
 	font-size:25px;
 	color:white;
 	padding-top:10px;
-	font-family: 'Taviraj', cursive;
-	padding-bottom: 5px;
+	font-family: 'Open Sans', sans-serif;
 	border-bottom: 4px solid white;
-
+	padding-bottom: 7px;
 }
 .contactame2{
 	font-size:20px;
+}
+.mat{
+	margin-top: 25px;
 }
 
 /*media query*/
@@ -139,5 +142,15 @@ footer{
 	.fondo1{
 	padding-top: 190px;
 	padding-bottom: 70px;
+	}
+	
+
+}
+@media (min-width: 768px) and (max-width: 990px){
+	.mat2{
+		margin-top: -111px;
+	}
+	.mat3{
+		margin-top: 60px;
 	}
 }
