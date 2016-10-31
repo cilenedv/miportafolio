@@ -11,19 +11,24 @@
 	position: fixed;
 }
 .fondo1{
-	background-image:url(../img/lentes.jpg);
+	background-image:url(../img/coder3.jpg);
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	padding-bottom: 100px;
 }
 .frase{
 color:white;
-height: 100%;
+/*height: 100%;*/
 padding-top: 111px;
+padding-bottom:100px;
+background-color: rgba(18, 15, 11, 0.6);
+background: rgba(18, 15, 11, 0.6);
+}
+.frase2{
 font-family: 'Open Sans', sans-serif;
 font-weight:bold;
+font-size:50px;
 }
 .enlace1{
 	color: #fffcf0 !important;
@@ -32,7 +37,12 @@ font-weight:bold;
 	font-size: 2.5em;
 }
 .enlace{
-	color: #fffcf0 !important;
+	color:#fffcf0 !important;
+	font-weight:bold !important;
+	font-family: 'Open Sans', sans-serif;
+}
+.enlace:hover{
+	color: #f9cdad !important;
 	font-weight:bold !important;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -40,16 +50,16 @@ font-weight:bold;
 	padding: 50px 0px;
 }
 .cilene{
-	width:50%;
-	height:300px;
+	width: 100%;
+	height:350px;
 }
 .sobremi{
 	color:#52616a;
 	font-size:18px;
 	font-family: 'Open Sans', sans-serif;
 }
-.sobremi span{
-	color:#52616a;
+.letra{
+	color:#F1BE00;
 	font-size: 25px;
 	font-weight:bold;
 	font-family: 'Open Sans', sans-serif;
@@ -99,7 +109,7 @@ font-weight:bold;
 	margin:25px 0px !important;
 }
 .github , .social{
-	font-size:45px;
+	font-size:55px;
 	color:black;
 	padding:0px 10px;
 }
@@ -118,9 +128,14 @@ footer{
 	background-color:#87314e;
 	box-sizing:content-box;
 }
-.phone , .email{
+#phone , .email{
 	font-size:45px;
 	color:white;
+}
+#phone:hover{
+	font-size:45px;
+	color:white !important;
+	text-decoration:none !important;
 }
 .contactame{
 	font-size:25px;
@@ -144,10 +159,11 @@ footer{
 
 /*media query*/
 @media only screen and (max-width: 750px) {
-	.fondo1{
-	padding-top: 190px;
+	.frase{
+	padding-top: 250px;
 	padding-bottom: 70px;
 	}
+
 }
 @media (min-width: 768px) and (max-width: 990px){
 	.mat2{
