@@ -268,12 +268,14 @@ th {
 }
 .glyphicon {
   position: relative;
-  top: 1px;
+  top: -54px;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  font-size: 50px;
+  color: white;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -529,10 +531,10 @@ th {
   content: "\e078";
 }
 .glyphicon-chevron-left:before {
-  content: "\e079";
+  /*content: "\e079";*/
 }
 .glyphicon-chevron-right:before {
-  content: "\e080";
+  /*content: "\e080";*/
 }
 .glyphicon-plus-sign:before {
   content: "\e081";

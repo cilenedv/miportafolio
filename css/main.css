@@ -11,24 +11,38 @@
 	position: fixed;
 }
 .fondo1{
-	background-image:url(../img/coder3.jpg);
+	background-image:url(../img/pueblo.jpg);
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	height:570px;
+}
+#bottom{
+	    text-decoration: none;
+    	color: white;
 }
 .frase{
-color:white;
-/*height: 100%;*/
-padding-top: 111px;
-padding-bottom:100px;
-background-color: rgba(18, 15, 11, 0.6);
-background: rgba(18, 15, 11, 0.6);
+	color:white;
+	height: 100%;
+	padding-top: 120px;
+	/*padding-bottom:100px;*/
+	background-color: rgba(18, 15, 11, 0.6);
+	background: rgba(18, 15, 11, 0.6);
 }
 .frase2{
-font-family: 'Open Sans', sans-serif;
-font-weight:bold;
-font-size:50px;
+	font-family: 'Satisfy', cursive;
+	font-weight:bold;
+	font-size:70px;
+}
+.frase22{
+	font-family: 'Satisfy', cursive;
+	font-weight:bold;
+	font-size:35px;
+
+}
+.fraseNombre{
+	margin: 130px 0px;
 }
 .enlace1{
 	color: #fffcf0 !important;
@@ -68,7 +82,7 @@ font-size:50px;
 	padding:30px 0px
 }
 .fondo3{
-	background-image:url(../img/people.jpeg);
+	background-image:url(../img/coder3.jpg);
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -76,14 +90,14 @@ font-size:50px;
 	margin-bottom:30px;
 }
 .sombra3{
-	background-color: rgba(42, 29, 31, 0.7);
-	background: rgba(42, 29, 31, 0.7);
+	background-color: rgba(18, 15, 11, 0.6);
 	height:100%
 }
 .proyecto{
 	font-size:35px;
 	padding-bottom:30px;
 	color: #512645;
+	padding-top: 60px;
 	font-family: 'Open Sans', sans-serif;
 }
 .photo{
@@ -122,6 +136,7 @@ font-size:50px;
 .habilidades{
 	color:white;
 	font-size:35px;
+	padding-top: 60px;
 	font-family: 'Open Sans', sans-serif;
 }
 footer{
@@ -160,8 +175,14 @@ footer{
 /*media query*/
 @media only screen and (max-width: 750px) {
 	.frase{
-	padding-top: 250px;
-	padding-bottom: 70px;
+		padding-top: 186px;
+		padding-bottom: 120px;
+	}
+	.fondo1{
+		height:100vh;
+	}
+	.fraseNombre{
+		margin:100px 0px;
 	}
 
 }
