@@ -196,6 +196,9 @@ footer{
 		font-weight:bold;
 		font-size:50px;
 	}
+	.fotos{
+		width: 50%;
+	}
 }
 @media (min-width: 454px) and (max-width: 667px){
 	.fraseNombre{
