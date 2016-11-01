@@ -183,26 +183,23 @@ footer{
 		height:100vh;
 	}
 	.fraseNombre{
-		margin:100px 0px;
+		margin:50px 0px;
 	}
 	.enlace:hover{
-	color: #F6B352!important;
-	font-weight:bold !important;
-	font-family: 'Open Sans', sans-serif;
-	border:2px solid #87314e;
+		color: #F6B352!important;
+		font-weight:bold !important;
+		font-family: 'Open Sans', sans-serif;
+		border:2px solid #87314e;
 	}
 	.frase2{
-	font-family: 'Satisfy', cursive;
-	font-weight:bold;
-	font-size:50px;
-	}
-	.glyphicon{
-		top:-100 !important;
+		font-family: 'Satisfy', cursive;
+		font-weight:bold;
+		font-size:50px;
 	}
 }
 @media (min-width: 454px) and (max-width: 667px){
 	.fraseNombre{
-		margin:0px 0px;
+		margin:-60px 0px;
 	}
 }
 @media (min-width: 768px) and (max-width: 990px){
