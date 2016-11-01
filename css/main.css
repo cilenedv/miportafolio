@@ -11,12 +11,12 @@
 	position: fixed;
 }
 .fondo1{
-	background-image:url(../img/pueblo.jpg);
+	background-image:url(../img/lineas.jpg);
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height:570px;
+	height: 662px;
 }
 #bottom{
 	    text-decoration: none;
@@ -27,8 +27,8 @@
 	height: 100%;
 	padding-top: 120px;
 	/*padding-bottom:100px;*/
-	background-color: rgba(18, 15, 11, 0.6);
-	background: rgba(18, 15, 11, 0.6);
+	background-color: rgba(137, 6, 64, 0.8);
+	background: rgba(137, 6, 64, 0.8);
 }
 .frase2{
 	font-family: 'Satisfy', cursive;
@@ -59,9 +59,10 @@
 	color: #f9cdad !important;
 	font-weight:bold !important;
 	font-family: 'Open Sans', sans-serif;
+	border:2px solid #f9cdad;
 }
 .fondo2{
-	padding: 50px 0px;
+	padding: 115px 0px;
 }
 .cilene{
 	width: 100%;
@@ -175,7 +176,7 @@ footer{
 /*media query*/
 @media only screen and (max-width: 750px) {
 	.frase{
-		padding-top: 186px;
+		/*padding-top: 186px;*/
 		padding-bottom: 120px;
 	}
 	.fondo1{
@@ -184,7 +185,25 @@ footer{
 	.fraseNombre{
 		margin:100px 0px;
 	}
-
+	.enlace:hover{
+	color: #F6B352!important;
+	font-weight:bold !important;
+	font-family: 'Open Sans', sans-serif;
+	border:2px solid #87314e;
+	}
+	.frase2{
+	font-family: 'Satisfy', cursive;
+	font-weight:bold;
+	font-size:50px;
+	}
+	.glyphicon{
+		top:-100 !important;
+	}
+}
+@media (min-width: 454px) and (max-width: 667px){
+	.fraseNombre{
+		margin:0px 0px;
+	}
 }
 @media (min-width: 768px) and (max-width: 990px){
 	.mat2{
