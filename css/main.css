@@ -177,11 +177,15 @@ footer{
     margin-bottom: 30px;
 }
 #codigo{
-	right:110px;
+	right: 12px;
 	text-decoration: none;
+	bottom: 54px;
 }
 .borderd{
 	border-right:2px dashed white;
+}
+#demo{
+	padding: 5px 13px;
 }
 
 
@@ -212,8 +216,8 @@ footer{
 		width: 58%;
 	}
 	.borderd{
-	border-bottom:2px dashed white;
-	border-right:2px dashed #87314e;
+		border-bottom:2px dashed white;
+		border-right:2px dashed #87314e;
 	}
 	.espacio{
 		padding-bottom: 10px;
