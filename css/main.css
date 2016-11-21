@@ -30,13 +30,11 @@
 	background-color: rgba(137, 6, 64, 0.8);
 	background: rgba(137, 6, 64, 0.8);
 }
-.frase2{
-	font-family: 'Satisfy', cursive;
-	font-weight:bold;
-	font-size:70px;
+#frase2{
+	text-decoration:none;
 }
 .frase22{
-	font-family: 'Satisfy', cursive;
+	font-family: 'Niconne', Arial, sans-serif;
 	font-weight:bold;
 	font-size:35px;
 
@@ -47,7 +45,7 @@
 .enlace1{
 	color: #fffcf0 !important;
 	font-weight:bold !important;
-	font-family: 'Satisfy', cursive;
+	font-family: 'Niconne', Arial, sans-serif;
 	font-size: 2.5em;
 }
 .enlace{
@@ -62,7 +60,7 @@
 	border:2px solid #f9cdad;
 }
 .fondo2{
-	padding: 115px 0px;
+	padding-top: 58px;
 }
 .cilene{
 	width: 100%;
@@ -201,7 +199,7 @@ footer{
 		height:100vh;
 	}
 	.fraseNombre{
-		margin:50px 0px;
+		margin:-70px 0px;
 	}
 	.enlace:hover{
 		color: #F6B352!important;
@@ -224,6 +222,13 @@ footer{
 	.espacio{
 		padding-bottom: 10px;
 	}
+	#frase2{
+		font-size:68px;
+	}
+	#frase22{
+		font-size:33px;
+	}
+
 }
 @media (min-width: 454px) and (max-width: 667px){
 	.fraseNombre{
