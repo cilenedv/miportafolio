@@ -17,7 +17,6 @@ $(function() {
 $(function() {
 	$("#hobby h2 a").lettering();
 });
-
 (function($){
 	function injector(t, splitter, klass, after) {
 		var a = t.text().split(splitter), inject = '';
