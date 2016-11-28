@@ -11,7 +11,7 @@
 	position: fixed;
 }
 .fondo1{
-	background-image:url(../img/lineas.jpg);
+	background-image:url(../img/home.jpg);
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -27,40 +27,39 @@
 	height: 100%;
 	padding-top: 120px;
 	/*padding-bottom:100px;*/
-	background-color: rgba(137, 6, 64, 0.8);
-	background: rgba(137, 6, 64, 0.8);
+	/*background-color: rgba(137, 6, 64, 0.8);
+	background: rgba(137, 6, 64, 0.8);*/
 }
 #frase2{
 	text-decoration:none;
 }
 .frase22{
 	font-family: 'Niconne', Arial, sans-serif;
-	font-weight:bold;
 	font-size:35px;
+	color:#FF0044;
 
 }
 .fraseNombre{
 	margin: 130px 0px;
 }
 .enlace1{
-	color: #fffcf0 !important;
-	font-weight:bold !important;
+	color: #FF0044 !important;
 	font-family: 'Niconne', Arial, sans-serif;
 	font-size: 2.5em;
 }
 .enlace{
-	color:#fffcf0 !important;
+	color:white !important;
 	font-weight:bold !important;
 	font-family: 'Open Sans', sans-serif;
 }
 .enlace:hover{
-	color: #f9cdad !important;
+	color: #FF0044 !important;
 	font-weight:bold !important;
 	font-family: 'Open Sans', sans-serif;
-	border:2px solid #f9cdad;
+	border-bottom:4px solid #FF0044;
 }
 .fondo2{
-	padding-top: 58px;
+	padding:80px 0px;
 }
 .cilene{
 	width: 100%;
@@ -95,7 +94,7 @@
 .proyecto{
 	font-size:45px;
 	padding-bottom:30px;
-	color: #512645;
+	color: #FF0044;
 	padding-top: 60px;
 	font-family: 'Open Sans', sans-serif;
 	position:relative;
@@ -134,24 +133,33 @@
 	color:black;
 }
 .habilidades{
-	color:white;
+	color:#FF0044;
 	font-size:45px;
 	padding-top: 60px;
 	font-family: 'Open Sans', sans-serif;
 }
 
 footer{
-	background-color:#87314e;
+	background-color:#1C1C1C;
 	box-sizing:content-box;
+	padding-bottom:30px;
 }
 #phone , .email, #github, #linkendIn, #cv{
 	font-size:45px;
 	color:white;
 	text-decoration:none;
 }
+#phone:hover, .email:hover, #github:hover, #linkendIn:hover, #cv:hover{
+	font-size:50px;
+	color:#FF0044;
+	text-decoration:none;
+}
 .cv{
 	border:2px solid white;
-	border: 2px solid white;
+    padding: 10px;
+}
+.cv:hover{
+	border:2px solid #FF0044;
     padding: 10px;
 }
 #phone:hover{
@@ -160,8 +168,8 @@ footer{
 	text-decoration:none !important;
 }
 .contactame{
-	font-size:25px;
-	color:white;
+	font-size:40px;
+	color:#FF0044;
 	padding-top:10px;
 	font-family: 'Open Sans', sans-serif;
 	padding-bottom: 7px;
@@ -187,8 +195,6 @@ footer{
 #demo{
 	padding: 5px 13px;
 }
-
-
 /*media query*/
 @media only screen and (max-width: 750px) {
 	.frase{
@@ -202,10 +208,10 @@ footer{
 		margin:-70px 0px;
 	}
 	.enlace:hover{
-		color: #F6B352!important;
+		color: #FF0044!important;
 		font-weight:bold !important;
 		font-family: 'Open Sans', sans-serif;
-		border:2px solid #87314e;
+		border-bottom:1px solid #272727 ;
 	}
 	.frase2{
 		font-family: 'Satisfy', cursive;
@@ -230,6 +236,8 @@ footer{
 	}
 
 }
+
+
 @media (min-width: 454px) and (max-width: 667px){
 	.fraseNombre{
 		margin:-60px 0px;

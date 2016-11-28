@@ -4495,8 +4495,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #87314e;
-  border-color:#87314e;
+  background-color: #272727;
+  border-color:#272727;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4534,7 +4534,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #87314e;
+  background-color: #FF0044;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
