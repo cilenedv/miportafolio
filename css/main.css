@@ -66,12 +66,12 @@
 	height:350px;
 }
 .sobremi{
-	color:#52616a;
+	color:#424242;
 	font-size:18px;
 	font-family: 'Open Sans', sans-serif;
 }
 .letra{
-	color:#F1BE00;
+	color:#FF0044;
 	font-size: 25px;
 	font-weight:bold;
 	font-family: 'Open Sans', sans-serif;
@@ -88,7 +88,7 @@
 	margin-bottom:30px;
 }
 .sombra3{
-	background-color: rgba(18, 15, 11, 0.6);
+	background-color: rgba(18, 15, 11, 0.85);
 	height:100%
 }
 .proyecto{
@@ -133,7 +133,7 @@
 	color:black;
 }
 .habilidades{
-	color:#FF0044;
+	color:white;
 	font-size:45px;
 	padding-top: 60px;
 	font-family: 'Open Sans', sans-serif;
@@ -195,6 +195,196 @@ footer{
 #demo{
 	padding: 5px 13px;
 }
+/*barras de progreso al 100%*/
+#contenedor-barra {
+    width: 200px;
+    height: 30px;
+
+    border: 2px solid #FF0044;
+}
+
+#barra {
+    width: 0;
+    height: 100%;
+
+    -webkit-animation: progreso 4s linear infinite;
+            animation: progreso 4s linear infinite;
+
+    background: white;
+}
+
+#texto {
+    font-size: 18px;
+    font-weight: bold;
+   /* line-height: 2em;*/
+
+    width: 12.4em;
+    height: 30px;
+
+    text-align: center;
+
+    color: #FF0044;
+
+    mix-blend-mode: multiply;
+}
+
+#texto:after {
+    content: '0%';
+    -webkit-animation: porcentaje 4s linear infinite;
+            animation: porcentaje 4s linear infinite;
+}
+
+@-webkit-keyframes progreso {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes progreso {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes porcentaje {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+    100% {
+        content: '100%';
+    }
+}
+
+@keyframes porcentaje {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+    100% {
+        content: '100%';
+    }
+}
+/*barra de progreso al 75% */
+#contenedor-barra2 {
+    width: 200px;
+    height: 30px;
+
+    border: 2px solid #FF0044;
+}
+
+#barra2 {
+    width: 0;
+    height: 100%;
+
+    -webkit-animation: progresoDos 4s linear infinite;
+            animation: progresoDos 4s linear infinite;
+
+    background: white;
+}
+
+#texto2 {
+    font-size: 18px;
+    font-weight: bold;
+   /* line-height: 2em;*/
+
+    width: 12.4em;
+    height: 30px;
+
+    text-align: center;
+
+    color: #FF0044;
+
+    mix-blend-mode: multiply;
+}
+
+#texto2:after {
+    content: '0%';
+    -webkit-animation: pordentajeDos 4s linear infinite;
+            animation: pordentajeDos 4s linear infinite;
+}
+
+@-webkit-keyframes progresoDos {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes progresoDos {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@-webkit-keyframes pordentajeDos {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+   /* 100% {
+        content: '100%';
+    }*/
+}
+
+@keyframes pordentajeDos {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+    /*100% {
+        content: '100%';
+    }*/
+}
+.jq-margin{
+	margin-top: 80px;
+}
+.sql-margin{
+	margin-top: 79px;
+}
 /*media query*/
 @media only screen and (max-width: 750px) {
 	.frase{
@@ -234,6 +424,18 @@ footer{
 	#frase22{
 		font-size:33px;
 	}
+	.jq-margin, .sql-margin{
+		margin-top:0px;
+	}
+	.contactame, .habilidades, .proyecto{
+		font-size:32px;
+	}
+	.sobremi{
+		font-size: 15px;
+	}
+	.letra{
+		font-size:20px;
+	}
 
 }
 
@@ -245,7 +447,7 @@ footer{
 }
 @media (min-width: 768px) and (max-width: 990px){
 	.mat2{
-		margin-top: -111px;
+		margin-top: 56px;
 	}
 	.mat3{
 		margin-top: 60px;
@@ -263,4 +465,9 @@ footer{
 		margin:30px 0px;
 	}
 
+}
+@media (min-width: 992px) and (max-width: 1048px){
+	.sql-margin {
+    	margin-top: 23px;
+	}
 }
