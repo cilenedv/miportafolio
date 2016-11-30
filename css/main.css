@@ -199,39 +199,37 @@ footer{
 #contenedor-barra {
     width: 200px;
     height: 30px;
-
     border: 2px solid #FF0044;
+    border-radius:10px;
 }
 
 #barra {
     width: 0;
     height: 100%;
 
-    -webkit-animation: progreso 4s linear infinite;
-            animation: progreso 4s linear infinite;
+    -webkit-animation: progreso 5s linear infinite;
+            animation: progreso 5s linear infinite;
 
     background: white;
+    border-radius:10px;
 }
 
 #texto {
     font-size: 18px;
     font-weight: bold;
    /* line-height: 2em;*/
-
     width: 12.4em;
     height: 30px;
-
     text-align: center;
-
     color: #FF0044;
-
     mix-blend-mode: multiply;
+    border-radius:10px;
 }
 
 #texto:after {
     content: '0%';
-    -webkit-animation: porcentaje 4s linear infinite;
-            animation: porcentaje 4s linear infinite;
+    -webkit-animation: porcentaje 5s linear infinite;
+            animation: porcentaje 5s linear infinite;
 }
 
 @-webkit-keyframes progreso {
@@ -291,16 +289,16 @@ footer{
 #contenedor-barra2 {
     width: 200px;
     height: 30px;
-
+	border-radius:10px;
     border: 2px solid #FF0044;
 }
 
 #barra2 {
+	border-radius:10px;
     width: 0;
     height: 100%;
-
-    -webkit-animation: progresoDos 4s linear infinite;
-            animation: progresoDos 4s linear infinite;
+    -webkit-animation: progresoDos 5s linear infinite;
+            animation: progresoDos 5s linear infinite;
 
     background: white;
 }
@@ -309,21 +307,18 @@ footer{
     font-size: 18px;
     font-weight: bold;
    /* line-height: 2em;*/
-
     width: 12.4em;
     height: 30px;
-
     text-align: center;
-
     color: #FF0044;
-
+	border-radius:10px;
     mix-blend-mode: multiply;
 }
 
 #texto2:after {
     content: '0%';
-    -webkit-animation: pordentajeDos 4s linear infinite;
-            animation: pordentajeDos 4s linear infinite;
+    -webkit-animation: pordentajeDos 5s linear infinite;
+            animation: pordentajeDos 5s linear infinite;
 }
 
 @-webkit-keyframes progresoDos {
