@@ -169,10 +169,10 @@ footer{
 }
 .contactame{
 	font-size:40px;
-	color:#FF0044;
+	color:white;
 	padding-top:10px;
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 7px;
+	padding-bottom: 30px;
 }
 .contactame2{
 	font-size:20px;
@@ -207,8 +207,8 @@ footer{
     width: 0;
     height: 100%;
 
-    -webkit-animation: progreso 5s linear infinite;
-            animation: progreso 5s linear infinite;
+    -webkit-animation: progreso 10s linear forwards;
+            animation: progreso 10s linear forwards;
 
     background: white;
     border-radius:10px;
@@ -222,14 +222,14 @@ footer{
     height: 30px;
     text-align: center;
     color: #FF0044;
-    mix-blend-mode: multiply;
+    /*mix-blend-mode: multiply;*/
     border-radius:10px;
 }
 
 #texto:after {
     content: '0%';
-    -webkit-animation: porcentaje 5s linear infinite;
-            animation: porcentaje 5s linear infinite;
+    -webkit-animation: porcentaje 10s linear forwards;
+            animation: porcentaje 10s linear forwards;
 }
 
 @-webkit-keyframes progreso {
@@ -297,9 +297,8 @@ footer{
 	border-radius:10px;
     width: 0;
     height: 100%;
-    -webkit-animation: progresoDos 5s linear infinite;
-            animation: progresoDos 5s linear infinite;
-
+    -webkit-animation: progresoDos 10s linear forwards;
+            animation: progresoDos 10s linear forwards;
     background: white;
 }
 
@@ -312,13 +311,13 @@ footer{
     text-align: center;
     color: #FF0044;
 	border-radius:10px;
-    mix-blend-mode: multiply;
+    /*mix-blend-mode: multiply;*/
 }
 
 #texto2:after {
     content: '0%';
-    -webkit-animation: pordentajeDos 5s linear infinite;
-            animation: pordentajeDos 5s linear infinite;
+    -webkit-animation: porcentajeDos 10s linear forwards;
+            animation: porcentajeDos 10s linear forwards;
 }
 
 @-webkit-keyframes progresoDos {
@@ -335,11 +334,11 @@ footer{
         width: 0;
     }
     100% {
-        width: 75%;
+        width: 70%;
     }
 }
 
-@-webkit-keyframes pordentajeDos {
+@-webkit-keyframes porcentajeDos {
     0% {
         content: '0%';
     }
@@ -349,15 +348,15 @@ footer{
     50% {
         content: '50%';
     }
-    75% {
-        content: '75%';
+    100% {
+        content: '70%';
     }
    /* 100% {
         content: '100%';
     }*/
 }
 
-@keyframes pordentajeDos {
+@keyframes porcentajeDos {
     0% {
         content: '0%';
     }
@@ -367,9 +366,99 @@ footer{
     50% {
         content: '50%';
     }
-    75% {
-        content: '75%';
+    100% {
+        content: '70%';
     }
+    /*100% {
+        content: '100%';
+    }*/
+}
+
+/*porcentaje de 50%*/
+
+#contenedor-barra3 {
+    width: 200px;
+    height: 30px;
+	border-radius:10px;
+    border: 2px solid #FF0044;
+}
+
+#barra3 {
+	border-radius:10px;
+    width: 0;
+    height: 100%;
+    -webkit-animation: progresoTres 10s linear forwards;
+            animation: progresoTres 10s linear forwards;
+    background: white;
+}
+
+#texto3 {
+    font-size: 18px;
+    font-weight: bold;
+   /* line-height: 2em;*/
+    width: 12.4em;
+    height: 30px;
+    text-align: center;
+    color: #FF0044;
+	border-radius:10px;
+    /*mix-blend-mode: multiply;*/
+}
+
+#texto3:after {
+    content: '0%';
+    -webkit-animation: porcentajeTres 10s linear forwards;
+            animation:  porcentajeTres 10s linear forwards;
+}
+
+@-webkit-keyframes progresoTres {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes progresoTres {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@-webkit-keyframes  porcentajeTres {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    100% {
+        content: '50%';
+    }
+    /*100% {
+        content: '70%';
+    }*/
+   /* 100% {
+        content: '100%';
+    }*/
+}
+
+@keyframes  porcentajeTres {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    100% {
+        content: '50%';
+    }
+    /*100% {
+        content: '70%';
+    }*/
     /*100% {
         content: '100%';
     }*/
