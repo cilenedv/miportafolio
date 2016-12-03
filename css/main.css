@@ -67,7 +67,7 @@ body{
 	/*border-bottom:4px solid #FF0044;*/
 }
 #sobremi{
-	padding:80px 0px;
+	padding:100px 0px;
 }
 .cilene{
 	width: 100%;
@@ -77,7 +77,7 @@ body{
 	color:#424242;
 	font-size:20px;
 	font-family: 'Open Sans', sans-serif;
-    text-align:justify;
+    text-align:justify !important;
 }
 .letra{
 	color:#FF0044;
@@ -102,9 +102,10 @@ body{
 }
 .proyecto{
 	font-size:45px;
-	padding-bottom:30px;
+	padding-bottom:40px;
 	color: #FF0044;
 	padding-top: 60px;
+    padding-bottom: 60px;
 	font-family: 'Open Sans', sans-serif;
 	position:relative;
 }
@@ -189,7 +190,7 @@ footer{
 	color:white;
 	padding-top:10px;
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 30px;
+	padding-bottom: 80px;
 }
 .contactame2{
 	font-size:20px;
@@ -231,7 +232,7 @@ footer{
     border-radius:10px;
 }
 .pbh{
-    padding-bottom: 60px;
+    padding-bottom:90px;
 }
 
 #texto {
@@ -488,6 +489,7 @@ footer{
 	margin-top: 79px;
 }
 #pasatiempos{
+    padding-top: 50px;
     padding-bottom:90px;
 }
 /* estilos al nav*/
