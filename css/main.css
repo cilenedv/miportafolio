@@ -2,6 +2,10 @@
 	margin:0px;
 	padding: 0px;
 }
+body{
+	position: relative;
+}
+
 .menu{
 	margin-bottom:0px !important;
 	border-radius:0px !important;
@@ -10,7 +14,7 @@
 	opacity:0.75;
 	position: fixed;
 }
-.fondo1{
+#inicio{
 	background-image:url(../img/home.jpg);
 	background-position:center;
 	background-repeat: no-repeat;
@@ -21,6 +25,9 @@
 #bottom{
 	    text-decoration: none;
     	color: white;
+}
+#bottom:hover{
+    color:#FF0044;
 }
 .frase{
 	color:white;
@@ -35,7 +42,7 @@
 }
 .frase22{
 	font-family: 'Niconne', Arial, sans-serif;
-	font-size:35px;
+	font-size:39px;
 	color:#FF0044;
 
 }
@@ -51,14 +58,15 @@
 	color:white !important;
 	font-weight:bold !important;
 	font-family: 'Open Sans', sans-serif;
+    padding-bottom:15px !important;
 }
 .enlace:hover{
-	color: #FF0044 !important;
+	color: white !important;
 	font-weight:bold !important;
 	font-family: 'Open Sans', sans-serif;
-	border-bottom:4px solid #FF0044;
+	/*border-bottom:4px solid #FF0044;*/
 }
-.fondo2{
+#sobremi{
 	padding:80px 0px;
 }
 .cilene{
@@ -67,12 +75,12 @@
 }
 .sobremi{
 	color:#424242;
-	font-size:18px;
+	font-size:20px;
 	font-family: 'Open Sans', sans-serif;
 }
 .letra{
 	color:#FF0044;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight:bold;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -139,15 +147,22 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-footer{
+#contactos{
 	background-color:#1C1C1C;
 	box-sizing:content-box;
-	padding:30px 0px;
+	padding:60px 0px;
+}
+footer{
+    background-color: #424242;
+    padding:8px 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif
 }
 #phone , .email, #github, #linkendIn, #cv{
 	font-size:45px;
 	color:white;
 	text-decoration:none;
+     -webkit-transition: color 0.8s;
 }
 #phone:hover, .email:hover, #github:hover, #linkendIn:hover, #cv:hover{
 	font-size:50px;
@@ -157,6 +172,7 @@ footer{
 .cv{
 	border:2px solid white;
     padding: 10px;
+     -webkit-transition: border 0.8s;
 }
 .cv:hover{
 	border:2px solid #FF0044;
@@ -213,6 +229,9 @@ footer{
     background: white;
     border-radius:10px;
 }
+.pbh{
+    padding-bottom: 60px;
+}
 
 #texto {
     font-size: 18px;
@@ -246,7 +265,7 @@ footer{
         width: 0;
     }
     100% {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -264,7 +283,7 @@ footer{
         content: '75%';
     }
     100% {
-        content: '100%';
+        content: '90%';
     }
 }
 
@@ -282,7 +301,7 @@ footer{
         content: '75%';
     }
     100% {
-        content: '100%';
+        content: '90%';
     }
 }
 /*barra de progreso al 75% */
@@ -395,13 +414,11 @@ footer{
 #texto3 {
     font-size: 18px;
     font-weight: bold;
-   /* line-height: 2em;*/
     width: 12.4em;
     height: 30px;
-    text-align: center;
+    margin-left: -40px;
     color: #FF0044;
 	border-radius:10px;
-    /*mix-blend-mode: multiply;*/
 }
 
 #texto3:after {
@@ -469,6 +486,19 @@ footer{
 .sql-margin{
 	margin-top: 79px;
 }
+#pasatiempos{
+    padding-bottom:90px;
+}
+/* estilos al nav*/
+
+nav ul li a {
+transition: background-color 0.4s ease !important;
+}
+nav ul li a.active {
+background-color:#FF0044 !important;
+}
+
+
 /*media query*/
 @media only screen and (max-width: 750px) {
 	.frase{
@@ -482,7 +512,7 @@ footer{
 		margin:-70px 0px;
 	}
 	.enlace:hover{
-		color: #FF0044!important;
+		color: white!important;
 		font-weight:bold !important;
 		font-family: 'Open Sans', sans-serif;
 		border-bottom:1px solid #272727 ;
@@ -518,7 +548,7 @@ footer{
 		font-size: 15px;
 	}
 	.letra{
-		font-size:20px;
+		font-size:15px;
 	}
 
 }
